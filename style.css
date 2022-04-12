@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: fuchsia;
+    
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+
+}
+img {
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+}
+img :hover{
+    transform:scale(0.9);
+}
+#my_games
+{
+    background-color: aqua;
+}
+#my_games img
+{
+    height: 250px;
+    width:250px;
+    margin-top: 30px;
+}
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top:15px;
+    font-size: 20px;
+}
